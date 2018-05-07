@@ -40,10 +40,9 @@ int main(void)
 	for (size_t i = 0; i < m; ++i)
 		--hash_map[brr[i] - norm];
 
-	for (size_t i = 0; i < MAX_DIFF; ++i) {
+	for (size_t i = 0; i < MAX_DIFF; ++i)
 		if (hash_map[i] > 0)
-		printf("%lu ", i + norm);
-	}
+			printf("%lu ", i + norm);
 
 	free(arr);
 	arr = NULL;
