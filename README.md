@@ -13,5 +13,5 @@ implemented data structures).
 
 ## License
 
-All code in this repository is licensed under (the Unlicense)[https://unlicense.org/].
+All code in this repository is licensed under [the Unlicense](https://unlicense.org/).
 Do what you want with it.
